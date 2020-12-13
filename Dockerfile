@@ -4,7 +4,7 @@ MAINTAINER Mark Tannert <mark@tannert.net>
 
 COPY ./bin /usr/local/bin
 
-RUN apk add --no-cache bash openvpn=2.4.9-r0 openssl
+RUN apk add --no-cache bash openvpn=2.5.0-r0 openssl
 # Get easy-rsa
 #    git clone https://github.com/OpenVPN/easy-rsa.git /tmp/easy-rsa && \
 #    cd && \
